@@ -7,7 +7,7 @@
 
   shims = require('./shims');
 
-  EventEmitter = require('emitter');
+  EventEmitter = require('component-emitter');
 
   Call = (function(_super) {
     __extends(Call, _super);

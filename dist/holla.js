@@ -6,7 +6,7 @@
 
   shims = require('./shims');
 
-  ProtoSock = require('protosock');
+  ProtoSock = require('wearefractal-protosock');
 
   client = {
     options: {
